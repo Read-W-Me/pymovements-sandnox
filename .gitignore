@@ -1,0 +1,24 @@
+# Virtual Environment
+GP/
+venv/
+.venv/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Generated Data & Mock Inputs
+data/
+
+# Generated Results & Plots
+results/*
+!results/.gitkeep
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+*.swp

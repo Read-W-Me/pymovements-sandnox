@@ -1,0 +1,7 @@
+# Tested with Python 3.12, numpy 2.4.4, pandas 3.0.2, matplotlib 3.10.8.
+# pymovements is pinned exactly because its API and I-DT behaviour changed between releases
+# (0.28.0 requires evenly spaced integer timesteps; the code relies on that).
+pymovements==0.28.0
+numpy
+pandas
+matplotlib
